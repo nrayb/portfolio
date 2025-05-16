@@ -14,7 +14,7 @@ export default function Page() {
     >
       <h1 style={{ margin: 0 }}>This is the best boi!</h1>
       <Image
-        src="/Merlin.jpeg"
+        src="./Merlin.jpeg"
         alt="Picture of the best boi"
         width={500}
         height={500}
