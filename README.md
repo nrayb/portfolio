@@ -11,11 +11,12 @@ Let's create a simple next.js app to host a static page.
 
 ### Deploy to Github Pages
 
-Follow this [nextjs template](https://github.com/nextjs/deploy-github-pages/tree/main)
+Start with [nextjs template](https://github.com/nextjs/deploy-github-pages/tree/main)
+* This is set up to deploy the site on push to `main`
 
 #### Configuring Custom Domain From Squarespace
 
-Repo -> Settings -> Pages:
+Github Repo -> Settings -> Pages:
 * Custom Domain: "www.<your.domain>" and enable `Enforce HTTPS`
   * I had issues with `https`; turns out I needed to add `www.` based on how I setup DNS Settings.
 * In squarespace, set the following DNS settings:
